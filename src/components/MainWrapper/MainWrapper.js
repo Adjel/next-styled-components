@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Wrapper = styled.main`
+const MainWrapper = styled.main`
   width: 100%;
   max-width: 800px;
   padding: 16px 24px;
@@ -11,9 +11,5 @@ const Wrapper = styled.main`
   border-radius: 2px;
   background: white;
 `;
-
-function MainWrapper({ children }) {
-  return <Wrapper>{children}</Wrapper>;
-}
 
 export default MainWrapper;
